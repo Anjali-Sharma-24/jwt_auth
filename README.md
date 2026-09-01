@@ -1,4 +1,4 @@
-# 🔐 JWT Authentication & Authorization API
+# JWT Authentication & Authorization API
 
 A backend authentication system built with **Node.js, Express.js, MongoDB, Mongoose, JWT, and bcryptjs**.
 
@@ -6,7 +6,7 @@ This project implements secure user authentication and role-based authorization,
 
 ---
 
-## 🚀 Features
+## Features
 
 * User registration and login
 * JWT-based authentication
@@ -22,7 +22,7 @@ This project implements secure user authentication and role-based authorization,
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ```text
 Backend      → Node.js + Express.js
@@ -35,7 +35,7 @@ API Testing  → Postman
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```text
 Client / Postman
@@ -66,7 +66,7 @@ The application follows a modular structure where routes handle API endpoints, c
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 node-js-jwt-auth-mongodb-master/
@@ -99,7 +99,7 @@ node-js-jwt-auth-mongodb-master/
 
 ---
 
-## 🔄 How Authentication Works
+## How Authentication Works
 
 ### 1. Registration
 
@@ -148,7 +148,7 @@ Admin
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -168,7 +168,7 @@ Admin
 
 ---
 
-## 🧪 API Examples
+## API Examples
 
 ### Register
 
@@ -216,7 +216,7 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Clone the repository
 
@@ -254,7 +254,7 @@ http://localhost:8080
 
 ---
 
-## 🔒 Security
+## Security
 
 The project uses:
 
@@ -267,7 +267,7 @@ For production deployment, sensitive configuration such as database credentials 
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * [ ] Environment variable configuration
 * [ ] Refresh token implementation
@@ -283,7 +283,7 @@ For production deployment, sensitive configuration such as database credentials 
 
 ---
 
-## 🎯 What I Learned
+## What I Learned
 
 Building this project helped me understand how authentication works at the backend level, including:
 
@@ -298,13 +298,9 @@ Building this project helped me understand how authentication works at the backe
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Anjali Sharma**
 
 GitHub:
 https://github.com/Anjali-Sharma-24
-
----
-
-⭐ If you find this project useful, consider giving it a star.
