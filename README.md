@@ -72,7 +72,7 @@ Models define MongoDB data structures using Mongoose.
 Config contains database and JWT configuration.
 server.js initializes the Express application and MongoDB connection.
 
-Project Structure
+## Project Structure
 
 jwt_auth/
 |
@@ -106,7 +106,8 @@ jwt_auth/
 +-- README.md
 +-- server.js
 
-Authentication Flow
+## Authentication Flow
+
 1. User Registration
 
 The client sends registration details to:
@@ -176,7 +177,8 @@ Admin
 
 Authentication determines who the user is, while authorization determines what the user is allowed to access.
 
-API Endpoints
+## API Endpoints
+
 Authentication Endpoints
 Method	Endpoint	Description
 POST	/api/auth/signup	Register a new user
@@ -187,7 +189,7 @@ GET	/api/test/all	Public
 GET	/api/test/user	Authenticated users
 GET	/api/test/mod	Moderator
 GET	/api/test/admin	Admin
-API Examples
+## API Examples
 Register a User
 POST /api/auth/signup
 Content-Type: application/json
@@ -233,7 +235,7 @@ Authorization: Bearer <JWT_TOKEN>
 
 Replace <JWT_TOKEN> with the access token returned from the signin endpoint.
 
-Environment Configuration
+## Environment Configuration
 
 The application uses environment variables for configuration.
 
@@ -258,7 +260,7 @@ JWT_EXPIRES_IN	JWT expiration duration	24h
 
 Never commit your .env file to GitHub or expose your JWT secret publicly.
 
-Installation
+## Installation
 1. Clone the Repository
 git clone https://github.com/Anjali-Sharma-24/jwt_auth.git
 2. Navigate to the Project
@@ -286,7 +288,7 @@ npm start
 The API will be available at:
 
 http://localhost:8080
-Testing the API
+## Testing the API
 
 The API can be tested using:
 
@@ -313,7 +315,7 @@ curl.exe -X POST http://localhost:8080/api/auth/signin `
 
 The login response contains the JWT access token required for protected endpoints.
 
-Security
+## Security
 
 The application implements several security-related mechanisms:
 
@@ -335,7 +337,7 @@ Centralized error handling
 Automated security testing
 HTTPS
 Secure secret management
-Database
+## Database
 
 The application uses MongoDB as its database and Mongoose as the Object Data Modeling (ODM) library.
 
@@ -349,7 +351,7 @@ When the application starts for the first time and the roles collection is empty
 user
 moderator
 admin
-Current Status
+## Current Status
 
 The core JWT authentication and role-based authorization workflow is implemented and tested.
 
@@ -364,24 +366,24 @@ Role assignment
 Root API endpoint
 Environment-based configuration
 Refactored project structure
-Future Improvements
+## Future Improvements
 
 The following improvements can be added in future versions:
 
- Request validation
- Centralized error handling
- Rate limiting
- Helmet security headers
- Automated API tests
- Swagger/OpenAPI documentation
- Postman collection
- GitHub Actions CI/CD
- Refresh-token implementation
- Password reset
- Email verification
- Docker support
- Cloud deployment
-What This Project Demonstrates
+- [ ] Request validation
+- [ ] Centralized error handling
+- [ ] Rate limiting
+- [ ] Helmet security headers
+- [ ] Automated API tests
+- [ ] Swagger/OpenAPI documentation
+- [ ] Postman collection
+- [ ] GitHub Actions CI/CD
+- [ ] Refresh-token implementation
+- [ ] Password reset
+- [ ] Email verification
+- [ ] Docker support
+- [ ] Cloud deployment
+## What This Project Demonstrates
 
 This project demonstrates practical backend development concepts, including:
 
@@ -397,7 +399,7 @@ Authentication flows
 Environment-based configuration
 Modular project organization
 API testing
-Author
+## Author
 
 Anjali Sharma
 
