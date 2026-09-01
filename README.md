@@ -72,7 +72,7 @@ Models define MongoDB data structures using Mongoose.
 Config contains database and JWT configuration.
 server.js initializes the Express application and MongoDB connection.
 
-## Project Structure
+**## Project Structure** 
 
 jwt_auth/
 |
