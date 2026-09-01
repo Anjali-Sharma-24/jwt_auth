@@ -75,7 +75,7 @@ The application follows a modular architecture:
 
 ---
 
-## Project Structure
+**## Project Structure** 
 
 ```text
 jwt_auth/
